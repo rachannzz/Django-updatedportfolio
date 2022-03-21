@@ -1,0 +1,24 @@
+
+{% extends 'mysite/eg.html' %}
+{% load static %}
+{% block content %}
+
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src={% static 'images/rachan.jpg' %} alt="">
+                    
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Rachan and I'm a <span class="typing-2"></span></div>
+                    <p>Hello, my name is Rachan Phuyal. I am Newbie in this Programming field, i   seek for learning new things and technologies and want to be more fluent in the programming language field.I currently live in jhapa, Nepal. I enjoy coding and listening music alongsides .i am always ready  for learning new things  and want to extend my capabilities.
+
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    {% endblock content %}

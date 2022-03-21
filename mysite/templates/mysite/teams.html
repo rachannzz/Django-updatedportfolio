@@ -1,0 +1,72 @@
+{% extends 'mysite/eg.html' %}
+{% load static %}
+
+{% block content %}
+
+<section class="teams" id="teams">
+    <div class="max-width">
+        <h2 class="title">My teams</h2>
+        <div class="carousel owl-carousel">
+            <div class="card">
+                <div class="box">
+                    <img src={% static 'images/abhi.png' %} alt="">
+                    <div class="text">Abhi Kafle </div>
+                    <p>Fullstack Developer</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src={% static 'images/suajn.jpg' %} alt="">
+                    <div class="text">Sujan Khatiwoda</div>
+                    <p>Market Anylyser</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src={% static 'images/alish.jpg' %} alt="">
+                    <div class="text">Aleesh Khanal</div>
+                    <p>Editor,Photographer</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src={% static 'images/aa.jpg' %} alt="">
+                    <div class="text">Aashis Neupane</div>
+                    <p>Logic Developer</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src={% static 'images/prawesh.jpg' %} alt="">
+                    <div class="text">Prawesh Kafle</div>
+                    <p>Backend Senior.
+                        His Portfolio <a href="https://praweshkafle.com.np/" target="_blank">Prawesh</a></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src={% static 'images/aashis.jpg' %} alt="">
+                    <div class="text">Aashis Koirala</div>
+                    <p>Web Developer</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src={% static 'images/ujjwal.jpg' %} alt="">
+                    <div class="text">Ujjawal Dahal</div>
+                    <p>Hardware Senior</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src={% static 'images/manish.jpg' %} alt="">
+                    <div class="text">Manish Dhakal</div>
+                    <p>His Youtube channel  <a href="https://www.youtube.com/c/YourSenpAiiii" target="_blank">YOUR SENPAI</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% endblock content %}
